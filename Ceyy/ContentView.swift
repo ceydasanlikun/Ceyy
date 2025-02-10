@@ -3,7 +3,7 @@ import SwiftUI
 // MARK: - ViewModels
 class ProductsViewModel: ObservableObject {
     @Published var products: [Product] = [
-        Product(name: "iPhone 15", price: 999.99),
+        Product(name: " 15", price: 999.99),
         Product(name: "MacBook Pro", price: 1999.99),
         Product(name: "AirPods Pro", price: 249.99)
     ]
